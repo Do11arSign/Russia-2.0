@@ -747,15 +747,15 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 10
-	fascism = 2
-	communism = 88
+	fascism = 0
+	communism = 90
 }
 
 create_faction = Comintern
 add_to_faction = SOV
 add_to_faction = MON
 add_to_faction = TAN
-
+add_to_faction = PRC
 
 add_ideas = {
 	trotskyite_plot
@@ -763,8 +763,6 @@ add_ideas = {
 	SOV_infrastructure_problem
 	SOV_Dispersed_industry
 	SOV_Unhappy_peasants1
-	SOV_Suppressed_research
-	SOV_Army_disorganisation
 }
 
 create_country_leader = {
@@ -831,7 +829,7 @@ create_corps_commander = {
 	name = "Georgy Zhukov"
 	id = 410
 	picture = "Portrait_Soviet_Gregory_Zhukov.dds"
-	traits = { winter_specialist armor_officer media_personality war_hero }
+	traits = { winter_specialist armor_officer media_personality war_hero organizer skilled_staffer }
 	skill = 5
 
 	
